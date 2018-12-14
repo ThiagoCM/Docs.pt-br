@@ -197,7 +197,7 @@ Update-Database
 ---  
 <!-- End of VS tabs -->
 
-O comando `ef migrations add InitialCreate` gera código para criar o esquema de banco de dados inicial. O esquema se baseia no modelo especificado no `DbContext` (no arquivo *Models/RazorPagesMovieContext.cs*). O argumento `InitialCreate` é usado para nomear as migrações. Qualquer nome pode ser usado, mas, por convenção, um nome que descreve a migração é selecionado.
+O comando `ef migrations add InitialCreate` gera código para criar o esquema de banco de dados inicial. O esquema se baseia no modelo especificado no `DbContext` (no arquivo *Data/RazorPagesMovieContext.cs*). O argumento `InitialCreate` é usado para nomear as migrações. Qualquer nome pode ser usado, mas, por convenção, um nome que descreve a migração é selecionado.
 
 O comando `ef database update` executa o método `Up` no arquivo *Migrations/\<time-stamp>_InitialCreate.cs*. O método `Up` cria o banco de dados.
 
